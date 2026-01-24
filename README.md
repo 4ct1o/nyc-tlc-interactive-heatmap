@@ -33,7 +33,7 @@ All avaible TLC categories for **2024** year
 ## Tools & Technology
 
 Programming language: **Python**
-Core libraries: **pandas, matplotlib, seaborn, scikit-learn**
+Core libraries: **pandas, matplotlib, seaborn, scikit-learn, duckdb, pyarrow**
 *Versions are included in* **requirements.txt**
 
 
@@ -49,3 +49,6 @@ Core libraries: **pandas, matplotlib, seaborn, scikit-learn**
 ## References
 
 ## License
+
+### Captain's temporary log
+Jan 24 - duckdb is chosen and learned how to load, combine data - columns will be selected and data will be cleaned
