@@ -36,12 +36,12 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 ## Data Scope
 
 - **Year:** 2024
-- **Vehicle Categories:** All available categories
+- **Vehicle Categories:** High Volume FHV
 - **File Format:** Parquet
 
 ## Reproducing Data Pipeline --------------------------------------- edit here ---------------------------------------
 
-1. Download all 2024 TLC trip records from the official website
+1. Download all High Volume FHV (fhvhv) 2024 TLC trip records from the official website
 2. Place the raw files into 01_data/01_raw
 3. Run *02_notebooks/00_data_loading_cleaning.jpynb* to generate datasets in *01_docs/01_data/02_intermediate/*
 4. Run *02_notebooks/02_feature_engineering.jpynb* to generate datasets in *01_docs/01_data/03_processed/*
