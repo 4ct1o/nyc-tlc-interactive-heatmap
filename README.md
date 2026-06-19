@@ -2,17 +2,17 @@
 
 ## Problem & Project Objective
 
-Working as a ride-hailing driver involves uncertainty about operating conditions such as time, location, and service selection when attempting to maximize earnings. Demand varies across time, location, and ride-hailing service, which can lead to inefficient driving hours when decisions are made without data-driven insights.
+Ride-hailing drivers operate in a dynamic urban environment where passenger demand varies across time and location. Understanding these patterns can help identifying periods for higher trip availability and locations for more efficient driver positioning.
 
-This project aims to analyze New York City TLC High-Volume For-Hire Vehicle trip records from 2024 to identify patterns in earnings-related outcomes across routes, time periods, and ride-hailing platforms.
+This project analyzes 2024 New York City Taxi and Limousine Commission (TLC) High-Volume For-Hire Vehicle trip records to investigate the spatiotemporal distribution of ride demand throughout New York City through temporal analysis and geographic visualization.
 
 ## Data
 
 **Source:** [NYC TLC trip records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 High Volume FHV (fhvhv) category for **2024** year
 **Size:** 239,470,448 total trips
-**Features:** pickup_datetime, dropoff_datetime, request_datetime, trip_miles, trip_time, PULocationID, DOLocationID, base_passenger_fare, tips, tolls, airport_fee, driver_pay, service (selected for analysis)
-**Limitations:** Drivers' net earnings are not directly observable in the dataset. There are hidden costs such as fuel and maintenance. Additionally, records do not include driver intent, idle time between trips, or rejected requests, which limits the ability to model full earning efficiency.
+**Features:** pickup_datetime, request_datetime, PULocationID
+**Limitations:** Zones provide aggregated geographic regions rather than exact GPS coordinates limiting the resolution. Dataset records completed trips and does not include unmet demand, rejected requests. External factors which may influence demand such as weather, traffic conditions, and public events are not incorporated into the analysis.
 
 ## Workflow Overview
 
@@ -24,11 +24,11 @@ High Volume FHV (fhvhv) category for **2024** year
 
 ## Project Structure
 
-01_docs/ - Raw and processed datasets, official TLC guides and maps
-02_notebooks/ - Jupyter notebooks used for EDA, feature engineering, and analysis
-03_src/ - Reusable Python modules for data processing, feature engineering, and modeling
-04_reports/ - Final report, figures
-05_tests/ - Tests for modules and functions
+**01_docs/** - Raw and processed datasets, official TLC guides and maps
+**02_notebooks/** - Jupyter notebooks used for EDA, feature engineering, and analysis
+**03_src/** - Reusable Python modules for data processing, feature engineering, and modeling
+**04_reports/** - Final report, figures
+**05_tests/** - Tests for modules and functions
 
 ## Tools & Technology
 
@@ -49,6 +49,3 @@ Core libraries: **pandas, matplotlib, seaborn, scikit-learn, duckdb, pyarrow**
 ## References
 
 ## License
-
-### Captain's temporary log
-Jan 24 - duckdb is chosen and learned how to load, combine data - columns will be selected and data will be cleaned
