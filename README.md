@@ -10,7 +10,7 @@ This project analyzes 2024 New York City Taxi and Limousine Commission (TLC) Hig
 
 **Source:** [NYC TLC trip records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 High Volume FHV (fhvhv) category for **2024** year
-**Size:** 239,470,448 total trips
+**Size:** 298,930,712 total trips
 **Features:** pickup_datetime, request_datetime, PULocationID
 **Limitations:** Zones provide aggregated geographic regions rather than exact GPS coordinates limiting the resolution. Dataset records completed trips and does not include unmet demand, rejected requests. External factors which may influence demand such as weather, traffic conditions, and public events are not incorporated into the analysis.
 
