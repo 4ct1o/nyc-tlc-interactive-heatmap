@@ -1,11 +1,13 @@
-# NYC TLC 2024 Trip Records Analysis
+# NYC TLC Heatmap
 
 ## Problem & Project Objective
 
-Ride-hailing drivers operate in a dynamic urban environment where passenger demand varies across time and location. Understanding these patterns can help identifying periods for higher trip availability and locations for more efficient driver positioning.
+Ride-hailing demand varies throughout the day across different areas of New York City.
 
-This project analyzes 2024 New York City Taxi and Limousine Commission (TLC) High-Volume For-Hire Vehicle trip records to investigate the spatiotemporal distribution of ride demand throughout New York City through temporal analysis and geographic visualization.
+This project aims to help track ride demand across New York City by location and time of day using an interactive heatmap.
 
+## Showcase
+![Video](03_outputs/nyc_number_of_pickups.mp4)
 ## Data
 
 **Source:** [NYC TLC trip records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
