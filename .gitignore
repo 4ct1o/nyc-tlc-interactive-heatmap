@@ -1,4 +1,4 @@
 # Ignore datasets but keep README
 01_docs/01_data/**
 !01_docs/01_data/README.md
-03_outputs\nyc_number_of_pickups.html
+03_outputs/nyc_number_of_pickups.html
