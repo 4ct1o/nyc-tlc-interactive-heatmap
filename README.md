@@ -28,17 +28,17 @@ The interactive HTML heatmap is generated in `03_outputs/nyc-tlc-interactive-hea
 
 ## Workflow Overview
 
-NYC TLC Trip Records (2024)
+1. NYC TLC Trip Records (2024)
 
-Load files
+2. Load files
 
-Filter & clean data
+3. Filter & clean data
 
-Join with Taxi Zone boundaries
+4. Join with Taxi Zone boundaries
 
-Aggregate trips
+5. Aggregate trips
 
-Generate animated Plotly heatmap
+6. Generate animated Plotly heatmap
 
 ## Data
 
