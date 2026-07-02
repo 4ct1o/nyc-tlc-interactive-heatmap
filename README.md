@@ -9,7 +9,7 @@ This project aims to help track ride demand across New York City by location and
 ## Showcase 
 
 The interactive HTML heatmap is generated in `03_outputs/nyc-tlc-interactive-heatmap.html`.
-![GIF](03_outputs\nyc-tlc-interactive-heatmap.gif)
+![GIF](03_outputs/nyc-tlc-interactive-heatmap.gif)
 
 ## Reproducibility & Setup
 
