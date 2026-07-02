@@ -1,4 +1,4 @@
-# NYC TLC Heatmap
+# NYC TLC Interactive Heatmap
 
 ## Problem & Project Objective
 
